@@ -21,16 +21,23 @@
 // console.log(x)
 
 
-var numbers = ['Tom', 'Tim', 'Tin', 'Tik']
-let con = ''
-for(let x of numbers){
-    // console.log(x)
-    con +=x
+// var numbers = ['Tom', 'Tim', 'Tin', 'Tik']
+// let con = ''
+// for(let x of numbers){
+//     // console.log(x)
+//     con +=x
+// }
+// console.log(con);
+
+// Write a loop to print even numbers from 1 to 40. Use continue to skip odd numbers.
+
+
+for(let num = 1; num<=40; num++){
+    if(num%2==1){
+        continue;
+    }
+    console.log(num);
 }
-console.log(con);
-
-
-
 
 
 
