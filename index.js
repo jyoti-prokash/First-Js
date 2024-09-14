@@ -1,10 +1,12 @@
-let num = 7;
-if(num %2==0){
-    console.log("number is odd")
+
+function oddEvenChallenge(num){
+    if(num %2==0){
+        console.log("number is even")
+    }
+    else{
+        console.log("number is odd");
+    }
 }
-else{
-    console.log("number is even");
-}
-
-
-
+let num = 11;
+oddEvenChallenge(num);
+oddEvenChallenge(50);
